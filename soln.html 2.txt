@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="soln.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro-section</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="logo.svg" alt="" />
+      <img id="menu" class="menu" src="icon-menu.svg" alt="">
+    </div>
+    <div class="container">
+        <!-- <div class="logo">
+            <img src="logo.svg" alt="" />
+          </div> -->
+      <ul id="ul" class="ul">
+        <div class="nav">
+        <li onclick="feat()" id="features"  class="list">
+
+          Features
+          <div id="span" >
+            <img onclick="feat()" id="down" class="down" src="icon-arrow-down.svg" alt="">
+          </div>
+          <div id="sublink" class="sub">
+            <p class="drop">
+                <img src="icon-todo.svg" alt="" />
+                Todo List
+              </p><p class="drop">
+                <img src="icon-calendar.svg" alt="" />
+                Calendar
+              </p><p class="drop">
+                <img src="icon-reminders.svg" alt="" />
+                Reminders
+              </p><p class="drop">
+                <img src="icon-planning.svg" alt="" />
+                Planning
+              </p>
+          </div>
+        </li>
+        <li id="company" onclick="show()" class="list">Company
+          <div id="span">
+                <img  id="down2" class="down2" onclick="show()"  src="icon-arrow-down.svg" alt="">
+          </div>
+            <div id="sublinks" class="sublinks">
+
+                <p class="drop">
+                    History
+                </p>
+                <p class="drop">
+                    Our Team
+                </p><p class="drop">
+                    Blog
+                </p>
+            </div>
+        </li>
+        <li class="list">Careers</li>
+        <li class="list">About</li>
+        </div>
+        <div class="button">
+            <div class="log">Login</div>
+            <div class="reg">Register</div>
+        </div>
+        
+      </ul>
+      <div class="info">
+        <div class="left">
+            <h1 class="h1">Make <span class="span">remote work</span></h1>
+            <p class="details">
+                Get your team in sync, no matter your location.
+                Streamline processes, create team rituals, and watch
+                productivity soar.
+
+            </p>
+            <div class="go">
+            <h2 class="learn">Learn more</h2>
+            </div>
+            <div class="svg">
+                <img src="client-databiz.svg" alt="">
+                <img src="client-audiophile.svg" alt="">
+                <img src="client-meet.svg" alt="">
+                <img src="client-maker.svg" alt="">
+            </div>
+        </div>
+        <div class="right">
+          <img class="mobile" src="image-hero-mobile.png" alt="">
+          <img class="desktop" src="image-hero-desktop.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <script src="soln.js"></script>
+  </body>
+</html>
